@@ -31,10 +31,10 @@ bool isPalindrome(int n){
             return false;
         }
         
-        n = n - divisor;
+        n = (n % divisor) / 10;
         divisor = divisor / 100;
         
-        n = n / 10;
+        
     }
     return true;
 }
