@@ -3,7 +3,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <sys/ipc.h>
-#include <sys/msg.h> 
+#include <sys/msg.h>  
 
 struct msgBuffer{
     long msgType;
