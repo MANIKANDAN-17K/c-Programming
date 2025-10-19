@@ -3,7 +3,7 @@
 
 bool isPalindrome(int n);
 
-int main()
+int main() 
 {
     int n;
     printf("Enter the integer for check the palidrome or not : ");
