@@ -8,7 +8,7 @@ int main(){
     printf("the reverse number is %d ",reverse(n));
     return 0;
 }
-
+ 
 int reverse(int n){
     int rev = 0;
     while(n>0){
