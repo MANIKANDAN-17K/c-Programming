@@ -5,7 +5,7 @@
 #include <sys/ipc.h>
 #include <sys/msg.h>  
  
-struct msgBuffer{ 
+struct msgBuffer{
     long msgType;
     char msgText[100];
 };
